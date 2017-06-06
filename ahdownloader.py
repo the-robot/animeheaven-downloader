@@ -100,7 +100,6 @@ if __name__ == "__main__":
     try:
         anime = input("Enter Anime Url (with http): ")
         epRange = input("Enter episode no. or in range [from-to]: ")
-        print("")
         Downloader(anime, epRange)
     except KeyboardInterrupt:
         exit()
