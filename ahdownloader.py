@@ -37,7 +37,7 @@ class Downloader:
         for each in self.downloads:
             filename = each.split("/")[-1]
             self.downloadFile(each, filename)
-        print("[.] All episodes successfully downloaded")
+        print("\n[.] All episodes successfully downloaded")
 
     def getRange(self, epRange):
         """ return number range from given str format (min-max) """
