@@ -16,4 +16,4 @@
 - go to [Anime Heaven](http://animeheaven.eu/), select the anime you want and open one episode  
 - copy the url and remove **&e=....**  
 - paste the copied url in the script and enter the episode[s] you want to download, check the screenshot below  
-![alt](http://)
+![screenshot](https://raw.githubusercontent.com/Hadesy2k/ahdownloader/master/screenshot.png)
