@@ -24,7 +24,7 @@ class Downloader:
     def Main(self, url, epRange):
         """ Main Method """
         # get download urls
-        print("[.] Getting episodes urls")
+        print("[-] Getting episodes urls")
         for each in self.getRange(epRange):  # Episode Range
             html = self.fetchUrl(url + "&e=" + str(each))
             if html != None:
@@ -33,16 +33,19 @@ class Downloader:
                 print("[404] url not found for episode " + str(each))
 
         # download files
-        print("[.] Downloading process started\n")
+        print("[-] Downloading process started\n")
         for each in self.downloads:
             filename = each.split("/")[-1]
             self.downloadFile(each, filename)
-        print("\n[.] All episodes successfully downloaded")
+        print("\n[+] All episodes successfully downloaded")
 
     def getRange(self, epRange):
-        """ return number range from given str format (min-max) """
+        """ return list of numbers (range) from given str format (min-max) """
         epRange = list(map(int, epRange.split('-')))
-        return list(range(epRange[0], epRange[1]+1))
+        if len(epRange) > 1:
+        	return list(range(epRange[0], epRange[1]+1))
+        else:
+        	return epRange
 
     def fetchUrl(self, url):
         """ return website source code """
@@ -89,14 +92,14 @@ class Downloader:
 
 def banner():
     print("Anime Heaven Downloader by Ghost (github.com/Hadesy2k/ahdownloader)")
-    print("check above url for how to use the script.\n")
+    print("Check above url for how to use the script.\n")
 
 if __name__ == "__main__":
     banner()
 
     try:
-        anime = input("Enter Anime Url: ")
-        epRange = input("Enter episode range [from-to]: ")
+        anime = input("Enter Anime Url (with http): ")
+        epRange = input("Enter episode no. or in range [from-to]: ")
         print("")
         Downloader(anime, epRange)
     except KeyboardInterrupt:
