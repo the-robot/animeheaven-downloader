@@ -2,7 +2,7 @@
 > Author: *Ghost* [official.ghost@tuta.io](mailto:official.ghost@tuta.io)  
 > **README:** this is not official, and just written to download anime episodes easily for *otakus*  
 
-**Runtime Env** is Python3  
+**Runtime env** is Python3  
 
 **Lib Requirements**  
 - [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4)  
