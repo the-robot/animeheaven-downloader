@@ -8,7 +8,7 @@
 - [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4)  
 - [ProgressBar](https://pypi.python.org/pypi/progressbar2)  
 
-**Install for Ubuntu**
+**Lib Installation for Ubuntu**
 - `sudo pip3 install beautifulsoup4`
 - `sudo apt-get install python3-progressbar`
 
