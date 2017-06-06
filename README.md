@@ -1,6 +1,6 @@
 **Anime Heaven Downloader**  
 > Author: *Ghost* [official.ghost@tuta.io](mailto:official.ghost@tuta.io)  
-> **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
+> **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written by myself  just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
 
 **Runtime env** is Python3  
 
