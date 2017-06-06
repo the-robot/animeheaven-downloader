@@ -24,17 +24,20 @@ class Downloader:
     def Main(self, url, epRange):
         """ Main Method """
         # get download urls
+        print("[.] Getting episodes urls")
         for each in self.getRange(epRange):  # Episode Range
             html = self.fetchUrl(url + "&e=" + str(each))
             if html != None:
                 self.scrapeDownLink(html)
             else:
-                print("[404] URL Not Found")
+                print("[404] url not found for episode " + str(each))
 
         # download files
+        print("[.] Downloading process started\n")
         for each in self.downloads:
             filename = each.split("/")[-1]
             self.downloadFile(each, filename)
+        print("[.] All episodes successfully downloaded")
 
     def getRange(self, epRange):
         """ return number range from given str format (min-max) """
@@ -75,7 +78,7 @@ class Downloader:
 
     def setProgressBar(self, filename):
         """ Reset Progressbar """
-        self.pbar = ProgressBar(widgets=[filename.replace(".mp4", ""), Percentage(), ' ', Bar(marker=RotatingMarker()), ' ', ETA(), ' ', FileTransferSpeed()])
+        self.pbar = ProgressBar(widgets=[filename.replace(".mp4", " "), Percentage(), ' ', Bar(marker=RotatingMarker()), ' ', ETA(), ' ', FileTransferSpeed()])
 
     def progressBar(self, count, blockSize, totalSize):
         if self.pbar.maxval is None:
@@ -84,4 +87,18 @@ class Downloader:
         self.pbar.update(min(count*blockSize, totalSize))
 
 
-Downloader("http://animeheaven.eu/watch.php?a=Naruto%20Shippuden", "213-213")
+def banner():
+    print("Anime Heaven Downloader by Ghost (github.com/Hadesy2k/ahdownloader)")
+    print("check above url for how to use the script.\n")
+
+if __name__ == "__main__":
+    banner()
+
+    try:
+        anime = input("Enter Anime Url: ")
+        epRange = input("Enter episode range [from-to]: ")
+        print("")
+    except KeyboardInterrupt:
+        exit()
+
+    Downloader(anime, epRange)
