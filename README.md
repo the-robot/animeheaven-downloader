@@ -12,5 +12,5 @@
 - `sudo pip3 install beautifulsoup4`
 - `sudo apt-get install python3-progressbar`
 
-**Howto**  
+**How To Use**  
 ![alt](http://)
