@@ -4,6 +4,8 @@ Readme:
     This is unofficial, and not related with Anime Heaven.
     It is written just for convinient, feel free to share or edit
     Animes are credited to AnimeHeaven.eu
+
+https://github.com/hadesy2k/ahdownloader
 """
 
 import urllib.request, urllib.error
@@ -43,9 +45,9 @@ class Downloader:
         """ return list of numbers (range) from given str format (min-max) """
         epRange = list(map(int, epRange.split('-')))
         if len(epRange) > 1:
-        	return list(range(epRange[0], epRange[1]+1))
+            return list(range(epRange[0], epRange[1]+1))
         else:
-        	return epRange
+            return epRange
 
     def fetchUrl(self, url):
         """ return website source code """
