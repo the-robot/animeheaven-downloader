@@ -4,7 +4,7 @@
 
 **Release**
 - [Windowsx64 Version](https://github.com/Hadesy2k/ahdownloader/raw/master/ahdownloader_x64.exe)
-> Can be run with Wine for other platforms or use the python file with Python Environment (read Python sections)
+> Can be run with Wine for other platforms or use the python file with Python Environment (read Python section at the bottom)
 
 **How To Use**  
 - go to [Anime Heaven](http://animeheaven.eu/), select the anime you want and open one episode  
