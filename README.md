@@ -3,13 +3,6 @@
 > **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written by myself  just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
 
 
-**How To Use**  
-- go to [Anime Heaven](http://animeheaven.eu/), select the anime you want and open one episode  
-- copy the url and remove **&e=....**  
-- paste the copied url in the script and enter the episode[s] you want to download, check the screenshot below  
-![screenshot](https://raw.githubusercontent.com/Hadesy2k/ahdownloader/master/screenshot.png)
-
-
 **Changes**
 - updated the script to parse dynamic HTML content for video url
 
@@ -35,3 +28,9 @@ python3 /usr/share/ahdownloader.py "$@"
 - `sudo pip3 install beautifulsoup4 selenium`
 - `sudo apt-get install python3-progressbar`
 - `npm -g install phamtomjs-prebuilt`
+
+**How To Use**  
+- go to [Anime Heaven](http://animeheaven.eu/), select the anime you want and open one episode  
+- copy the url and remove **&e=....**  
+- paste the copied url in the script and enter the episode[s] you want to download, check the screenshot below  
+![screenshot](https://raw.githubusercontent.com/Hadesy2k/ahdownloader/master/screenshot.png)
