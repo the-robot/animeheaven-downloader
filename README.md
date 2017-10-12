@@ -15,7 +15,7 @@
 	- replace `/usr/share/` with `/usr/local/bin/` for Mac 
 ```
 #!/bin/bash
-python3 /usr/share/ahdownloader.py "$@"
+python3 /usr/share/ahdownloader.py
 ```
 
 **Lib Requirements**  
