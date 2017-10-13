@@ -22,12 +22,12 @@ python3 /usr/share/ahdownloader.py
 - [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4)  
 - [ProgressBar](https://pypi.python.org/pypi/progressbar2)  
 - [Selenium](https://pypi.python.org/pypi/selenium)
-- [PhamtomJS](http://phantomjs.org/)
+- [PhantomJS](http://phantomjs.org/)
 
 **Lib Installation for Ubuntu**
 - `sudo pip3 install beautifulsoup4 selenium`
 - `sudo apt-get install python3-progressbar`
-- `npm -g install phamtomjs-prebuilt`
+- `npm -g install phantomjs-prebuilt`
 
 **How To Use**  
 - go to [Anime Heaven](http://animeheaven.eu/), select the anime you want and open one episode  
