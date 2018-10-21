@@ -36,7 +36,7 @@
 
 ---
 
-### WHY THE HECK IS THIS GUY REFACTORED THE CODE
+### WHY THE HECK DID HE REFACTOR THE CODE
 
 - First of all, the whole purpose of writing this is to save my time from browsing the site and clicking episodes one by one
 - After few weeks, people from Anime Heaven added **Abuse Blocking Method** ¯\\_(ツ)_/¯
