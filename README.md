@@ -1,36 +1,43 @@
-**Anime Heaven Downloader**  
-> Author: *Ghost* [official.ghost@tuta.io](mailto:official.ghost@tuta.io)  
+**Anime Heaven Downloader**
 > **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written by myself  just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
 
 
 **Changes**
-- updated the script to parse dynamic HTML content for video url
+- codebase is refactored
+- add logger methods, modularized the code so it can be reused in other automated scripts (see `WHY` at the bottom)
+- add animeheaven request blocked handling
+- remove the use of progressbar2, and use custom simple progressbar
+- way of using the program changed, see `How To Use`
 
 ---
+
 ### Run with Python3
 
-**Create command shortcut**
-- move the `ahdownloader.py` to `/usr/share/` or `/usr/local/bin/` for Mac
-- write the follow bash script in `/usr/bin/` or `/usr/local/bin/` for Mac
-	- replace `/usr/share/` with `/usr/local/bin/` for Mac 
-```
-#!/bin/bash
-python3 /usr/share/ahdownloader.py
-```
-
 **Lib Requirements**  
-- [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4)  
-- [ProgressBar](https://pypi.python.org/pypi/progressbar2)  
+- [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4)
 - [Selenium](https://pypi.python.org/pypi/selenium)
 - [PhantomJS](http://phantomjs.org/)
 
 **Lib Installation for Ubuntu**
 - `sudo pip3 install beautifulsoup4 selenium`
-- `sudo apt-get install python3-progressbar`
 - `npm -g install phantomjs-prebuilt`
 
 **How To Use**  
-- go to [Anime Heaven](http://animeheaven.eu/), select the anime you want and open one episode  
-- copy the url and remove **&e=....**  
-- paste the copied url in the script and enter the episode[s] you want to download, check the screenshot below  
-![screenshot](https://raw.githubusercontent.com/Hadesy2k/ahdownloader/master/screenshot.png)
+- go to [Anime Heaven](http://animeheaven.eu/), and simply copy the anime overview page
+	- i.e. [http://animeheaven.eu/i.php?a=Bakuman.](http://animeheaven.eu/i.php?a=Bakuman.)
+- python app.py --anime={ANIME URL} --episode={1-10}
+
+> --episode: can be either single episode (1) or range (1-10)
+> --download: optional parameter to set download path. i.e. --download='/Users/anime/Desktop'
+
+---
+
+**WHY THE HECK IS THIS GUY REFACTORED THE CODE**
+- First of all, the whole purpose of writing this is to save my time from browsing the site and clicking one by one
+- After few weeks, people from Anime Heaven added "Abuse Blocking Method"
+- So either way I have to change my code to work, but also I am planning to reuse this code in my other automated script
+	- interested? I will give you an idea
+	- simple way is write schedule tasks with [Celery](http://www.celeryproject.org)
+	- if you have Raspberry Pi and FTP server running on local for storage, run celery on Raspberry and use FTP to save your downloaded videos there
+	- so if you want to watch the new episode of anime, just FTP into yours and enjoy!
+	
