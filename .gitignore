@@ -1,6 +1,9 @@
 .Python
+.DS_Store
 bin
 include
 lib
 pip-selfcheck.json
 __pycache__
+logs
+ghostdriver.log
