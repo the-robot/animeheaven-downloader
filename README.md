@@ -12,6 +12,7 @@
 ---
 
 ### Run with Python3
+- Minimum python requirement Python 3.6
 
 **Lib Requirements**  
 - [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4)
