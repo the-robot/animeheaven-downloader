@@ -38,11 +38,12 @@
 
 ### WHY THE HECK IS THIS GUY REFACTORED THE CODE
 
-- First of all, the whole purpose of writing this is to save my time from browsing the site and clicking one by one
-- After few weeks, people from Anime Heaven added "Abuse Blocking Method"
-- So either way I have to change my code to work, but also I am planning to reuse this code in my other automated script
+- First of all, the whole purpose of writing this is to save my time from browsing the site and clicking episodes one by one
+- After few weeks, people from Anime Heaven added **Abuse Blocking Method** ¯\_(ツ)_/¯
+- So either way I have to change my code to work, also I am planning to reuse this code in my other automated script
 	- interested? I will give you an idea
 	- simple way is write schedule tasks with [Celery](http://www.celeryproject.org)
-	- if you have Raspberry Pi and FTP server running on local for storage, run celery on Raspberry and use FTP to save your downloaded videos there
+	- if you have Raspberry Pi and FTP server running on local for storage, run celery on Raspberry
+	- use FTP to save your downloaded videos there
 	- so if you want to watch the new episode of anime, just FTP into yours and enjoy!
 	
