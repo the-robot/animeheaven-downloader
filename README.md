@@ -4,7 +4,7 @@
 
 **Changes**
 - codebase is refactored
-- add logger methods, modularized the code so it can be reused in other automated scripts (see `WHY` at the bottom)
+- add logger methods, modularized the code so it can be reused in other automated scripts (see [WHY](https://github.com/the-robot/animeheaven-downloader/blob/master/README.md#why-the-heck-is-this-guy-refactored-the-code) at the bottom)
 - add animeheaven request blocked handling
 - remove the use of progressbar2, and use custom simple progressbar
 - way of using the program changed, see [How To Use](https://github.com/the-robot/animeheaven-downloader/blob/master/README.md#how-to-use)
