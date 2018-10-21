@@ -49,7 +49,7 @@ class Scraper:
     def __is_blocked(self, html:str) -> bool:
         if html.find(self.__ABUSE_MSG) != -1:
             raise RequestBlocked
-        return True
+        return False
 
     def __convert_url(self, url:str) -> str:
         """convert anime overall preview url to episode url"""
