@@ -28,6 +28,7 @@
 - python app.py --anime={ANIME URL} --episode={1-10}
 
 > --episode: can be either single episode (1) or range (1-10)
+
 > --download: optional parameter to set download path. i.e. --download='/Users/anime/Desktop'
 
 ---
