@@ -39,7 +39,7 @@
 ### WHY THE HECK IS THIS GUY REFACTORED THE CODE
 
 - First of all, the whole purpose of writing this is to save my time from browsing the site and clicking episodes one by one
-- After few weeks, people from Anime Heaven added **Abuse Blocking Method** ¯\_(ツ)_/¯
+- After few weeks, people from Anime Heaven added **Abuse Blocking Method** ¯\\_(ツ)_/¯
 - So either way I have to change my code to work, also I am planning to reuse this code in my other automated script
 	- interested? I will give you an idea
 	- simple way is write schedule tasks with [Celery](http://www.celeryproject.org)
