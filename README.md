@@ -22,7 +22,9 @@
 - `sudo pip3 install beautifulsoup4 selenium`
 - `npm -g install phantomjs-prebuilt`
 
-**How To Use**  
+---
+
+### How To Use
 - go to [Anime Heaven](http://animeheaven.eu/), and simply copy the anime overview page
 	- i.e. [http://animeheaven.eu/i.php?a=Bakuman.](http://animeheaven.eu/i.php?a=Bakuman.)
 - python app.py --anime={ANIME URL} --episode={1-10}
@@ -33,7 +35,8 @@
 
 ---
 
-**WHY THE HECK IS THIS GUY REFACTORED THE CODE**
+### WHY THE HECK IS THIS GUY REFACTORED THE CODE
+
 - First of all, the whole purpose of writing this is to save my time from browsing the site and clicking one by one
 - After few weeks, people from Anime Heaven added "Abuse Blocking Method"
 - So either way I have to change my code to work, but also I am planning to reuse this code in my other automated script
