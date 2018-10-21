@@ -7,7 +7,7 @@
 - add logger methods, modularized the code so it can be reused in other automated scripts (see `WHY` at the bottom)
 - add animeheaven request blocked handling
 - remove the use of progressbar2, and use custom simple progressbar
-- way of using the program changed, see `How To Use`
+- way of using the program changed, see [How To Use](https://github.com/the-robot/animeheaven-downloader/blob/master/README.md#how-to-use)
 
 ---
 
@@ -25,6 +25,7 @@
 ---
 
 ### How To Use
+
 - go to [Anime Heaven](http://animeheaven.eu/), and simply copy the anime overview page
 	- i.e. [http://animeheaven.eu/i.php?a=Bakuman.](http://animeheaven.eu/i.php?a=Bakuman.)
 - python app.py --anime={ANIME URL} --episode={1-10}
