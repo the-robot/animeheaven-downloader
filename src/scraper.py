@@ -17,8 +17,6 @@ class Scraper:
 
 
     def __init__(self, anime:str):
-        """ enter anime project url"""
-        
         self.__anime = self.__convert_url(anime)
         self.__driver = self.__get_driver()
 
