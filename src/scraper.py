@@ -39,7 +39,7 @@ class Scraper:
         return [ download['src'] for download in result ] if result else None
 
 
-    def __get_driver(self):
+    def __get_driver(self) -> object:
         try:
             # TODO: PhantomJS is deprecated, will have to replace
             return webdriver.PhantomJS()
