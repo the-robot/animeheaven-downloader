@@ -44,7 +44,7 @@ class Scraper:
             # TODO: PhantomJS is deprecated, will have to replace
             return webdriver.PhantomJS()
         except SeleniumExceptions.WebDriverException:
-            DriverNotFound('PhantomJS not found in the system')
+            raise DriverNotFound('PhantomJS not found in the system')
 
     def __is_blocked(self, html:str) -> bool:
         if html.find(self.__ABUSE_MSG) != -1:
