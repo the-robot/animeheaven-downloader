@@ -1,7 +1,7 @@
 **Anime Heaven Downloader**
 > **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written by myself  just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
 
-- If you want on-schedule automated downloader with episode sync, go check "[Anime Auto](https://github.com/the-robot/anime-auto/)"
+- If you want on-schedule automated downloader with episode sync, go check "[Anime On Schedule Downloader](https://github.com/the-robot/anime-onschedule-downloader)"
 
 **Changes**
 - codebase is refactored
