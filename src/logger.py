@@ -22,7 +22,7 @@ class Logger:
     
     def __log(self, msg:str, msg_type:str):
         log = self.__get_logfile()
-        now = self.__today.strftime('%d-%m-%Y %H:%M:%S %p')
+        now = datetime.today().strftime('%d-%m-%Y %H:%M:%S %p')
 
         with open(log, 'a') as logger:
             msg = f'[{now} : {msg_type:5}] {msg}'
