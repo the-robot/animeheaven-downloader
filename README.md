@@ -1,11 +1,12 @@
 **Anime Heaven Downloader**
+**NOTICE!**
+- Site will go down by 25th Dec. 😞 so this may no longer works after that period.
+![closure](https://raw.githubusercontent.com/the-robot/animeheaven-downloader/master/Closure.png)
 
-> **NOTICE!**
->
-> Site will go down by 25th Dec. 😞 so this may no longer works after that period. But I will switch to another anime site in the future to prolong the life of this script.
->
-> Because I, myself is using it 🤷
+- But I will switch to another anime site in the future to prolong the life of this script.
+- Because I, myself is using it 🤷
 
+---
 
 > **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written by myself  just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
 
