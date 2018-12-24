@@ -1,4 +1,12 @@
 **Anime Heaven Downloader**
+
+> **NOTICE!**
+>
+> Site will go down by 25th Dec. 😞 so this may no longer works after that period. But I will switch to another anime site in the future to prolong the life of this script.
+>
+> Because I, myself is using it 🤷
+
+
 > **README:** this is not official, and dev for this script is nothing related with Anime Heaven team. It was written by myself  just to download anime episodes easily. Anime episodes credit go to [Anime Heaven](http://animeheaven.eu/).  
 
 - If you want on-schedule automated downloader with episode sync, go check "[Anime On Schedule Downloader](https://github.com/the-robot/anime-onschedule-downloader)"
@@ -42,10 +50,4 @@
 
 - First of all, the whole purpose of writing this is to save my time from browsing the site and clicking episodes one by one
 - After few weeks, people from Anime Heaven added **Abuse Blocking Method** ¯\\_(ツ)_/¯
-- So either way I have to change my code to work, also I am planning to reuse this code in my other automated script
-	- interested? I will give you an idea
-	- simple way to is write schedule tasks with [Celery](http://www.celeryproject.org)
-	- if you have Raspberry Pi and FTP server running on local for storage, run celery on Raspberry
-	- use FTP to save your downloaded videos there
-	- so if you want to watch the new episode of anime, just FTP into yours and enjoy!
 	
