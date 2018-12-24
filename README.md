@@ -1,6 +1,6 @@
 **Anime Heaven Downloader**
 **NOTICE!**
-- Site will go down by 25th Dec. 😞 so this may no longer works after that period.
+- [Site](https://animeheaven.eu) will go down by 25th Dec. 😞 so this may no longer works after that period.
 - But I will switch to another anime site in the future to prolong the life of this script.
 
 ![closure](https://raw.githubusercontent.com/the-robot/animeheaven-downloader/master/Closure.png)
